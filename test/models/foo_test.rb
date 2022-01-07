@@ -28,5 +28,9 @@ class FooTest < ActiveSupport::TestCase
 
     # エラーが出ないか確認
     foo.update!(hoge_id: hoge2.id)
+
+    # Foo の validate 時の foo.hoge の出力結果
+    # => #<Hoge id: 2, name: nil, created_at: "2022-01-07 04:35:51.922661000 +0000", updated_at: "2022-01-07 04:35:51.922661000 +0000">
+    # 問題なさそう 🤔
   end
 end
