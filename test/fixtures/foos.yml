@@ -2,6 +2,8 @@
 
 one:
   name: MyString
+  hoge_id: 1
 
 two:
   name: MyString
+  hoge_id: 1
